@@ -23,3 +23,9 @@ function changeColor(regex,inputValue,inputElement) {
 			inputElement.style.backgroundColor = 'pink';
 		}
 }
+ window.onload = function() {
+            const inputElements = document.querySelectorAll('input'); 
+            inputElements.forEach(inputElement => {
+                inputElement.style.backgroundColor = 'pink';
+            });
+        };
